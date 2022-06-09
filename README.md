@@ -1,0 +1,1 @@
+# MediaTek_LowPower_Semantic_Segmentation
