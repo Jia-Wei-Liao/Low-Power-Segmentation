@@ -7,6 +7,12 @@ git clone https://github.com/Jia-Wei-Liao/MediaTek_LowPower_Semantic_Segmentatio
 ```
 
 ## Set up enviroment
+**1. Create a conda enviroment**
+```
+conda create -n MTKML python==3.7 -y
+conda activate MTKML
+```
+**2. Install the requirement package**
 ```
 pip install -r requirements.txt
 ```
