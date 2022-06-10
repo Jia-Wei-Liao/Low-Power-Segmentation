@@ -1,0 +1,10 @@
+tqdm
+numpy
+pathlib
+Pillow
+opencv-python
+torch
+torchvision
+tensorflow==1.15
+tensorflow-gpu==1.15
+cudatoolkit==10.0
