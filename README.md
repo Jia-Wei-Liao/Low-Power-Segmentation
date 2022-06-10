@@ -6,6 +6,12 @@ You can download all the files in this repository by cloning this repository:
 git clone https://github.com/Jia-Wei-Liao/MediaTek_LowPower_Semantic_Segmentation.git
 ```
 
+## Set up enviroment
+```
+pip install -r requirements.txt
+```
+
+
 ## Training
 To train the model, you can run this command:
 ```
