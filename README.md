@@ -13,6 +13,13 @@ python train.py
 ```
 
 
+## Quantization
+To get the low power model, you can run this command:
+```
+python quantization.py
+```
+
+
 ## Citation
 ```
 @misc{
