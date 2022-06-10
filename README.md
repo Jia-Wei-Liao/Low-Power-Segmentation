@@ -15,6 +15,7 @@ conda activate MTKML
 **2. Install the requirement package**
 ```
 pip install -r requirements.txt
+conda install cudatoolkit=10.0
 ```
 
 
