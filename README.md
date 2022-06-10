@@ -33,7 +33,12 @@ python quantization.py
 ```
 
 ## Experiment
+In the following figure, we show the result of raw image, raw mask, model predication and model predication after quantization.
 
+![Image](https://github.com/Jia-Wei-Liao/MediaTek_LowPower_Semantic_Segmentation/blob/main/figure/image.jpg "raw image")
+![Image](https://github.com/Jia-Wei-Liao/MediaTek_LowPower_Semantic_Segmentation/blob/main/figure/mask.jpg  "raw mask")
+![Image](https://github.com/Jia-Wei-Liao/MediaTek_LowPower_Semantic_Segmentation/blob/main/figure/prediction.jpg "model prediction w/o quantization")
+![Image](https://github.com/Jia-Wei-Liao/MediaTek_LowPower_Semantic_Segmentation/blob/main/figure/prediction_quantization.jpg "model prediction w/ quantization")
 
 ## Citation
 ```
