@@ -49,17 +49,22 @@ In the following figure, we show the result of raw image, raw mask, model predic
   <tr>
     <td>latency</td>
     <td>90896.9</td>
-    <td>5</td>
+    <td>5/55</td>
   </tr>
   <tr>
     <td>power</td>
     <td>689.76</td>
-    <td>31</td>
+    <td>31/55</td>
   </tr>
   <tr>
     <td>power</td>
     <td>0.5672</td>
-    <td>22</td>
+    <td>22/55</td>
+  </tr>
+  <tr>
+    <td>total</td>
+    <td>86.25</td>
+    <td>9/55</td>
   </tr>
 <table>
 
