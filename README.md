@@ -40,6 +40,29 @@ In the following figure, we show the result of raw image, raw mask, model predic
 ![Image](https://github.com/Jia-Wei-Liao/MediaTek_LowPower_Semantic_Segmentation/blob/main/figure/prediction.jpg "model prediction w/o quantization")
 ![Image](https://github.com/Jia-Wei-Liao/MediaTek_LowPower_Semantic_Segmentation/blob/main/figure/prediction_quantization.jpg "model prediction w/ quantization")
 
+<table>
+  <tr>
+    <td>metric</td>
+    <td>value</td>
+    <td>rank</td>
+  </tr>
+  <tr>
+    <td>latency</td>
+    <td>90896.9</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>power</td>
+    <td>689.76</td>
+    <td>31</td>
+  </tr>
+  <tr>
+    <td>power</td>
+    <td>0.5672</td>
+    <td>22</td>
+  </tr>
+<table>
+
 ## Citation
 ```
 @misc{
