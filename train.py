@@ -136,14 +136,12 @@ for d in range(depth):
     x = tf.layers.batch_normalization(x, center=True, scale=True)
     x = tf.nn.relu(x)
 
-    if d < depth-1:
-        x = tf.layers.conv2d(x, channel*(2**(d+1)), 3, 2, 'same')
-
-    else:
-        x = tf.layers.conv2d(x, channel*(2**(d+1)), 3, 1, 'same')
-        
+    x = tf.layers.conv2d(x, channel*(2**(d+1)), 3, 1, 'same')
     x = tf.layers.batch_normalization(x, center=True, scale=True)
     x = tf.nn.relu(x) 
+
+    if d < depth-1:
+        x = tf.nn.avg_pool(x, [1, 2, 2, 1], [1, 2, 2 ,1], 'SAME')
 
 # Decoder
 for d in range(depth):
