@@ -57,7 +57,7 @@ In the following figure, we show the result of raw image, raw mask, model predic
     <td>31/55</td>
   </tr>
   <tr>
-    <td>power</td>
+    <td>mIoU</td>
     <td>0.5672</td>
     <td>22/55</td>
   </tr>
