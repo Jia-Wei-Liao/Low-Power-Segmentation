@@ -1,4 +1,4 @@
-# MediaTek_LowPower_Semantic_Segmentation
+# MediaTek LowPower Semantic Segmentation
 
 ## Getting the code
 You can download all the files in this repository by cloning this repository:  
